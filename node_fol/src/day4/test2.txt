@@ -1,0 +1,2 @@
+Using stream to write text
+Another line of text.

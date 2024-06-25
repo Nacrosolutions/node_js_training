@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobility Product Recommendations</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Recommendations</a></li>
+				<li><a href="#">Compare</a></li>
+				<li><a href="#">Reviews</a></li>
+				<li><a href="#">Buy Now</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="search">
+			<h2>Search for Mobility Products</h2>
+			<form>
+				<input type="text" id="search-input" placeholder="Search by device type, operating system, price range...">
+				<button type="submit">Search</button>
+			</form>
+			<ul id="search-results">
+				<!-- search results will be displayed here -->
+			</ul>
+		</section>
+		<section id="recommendations">
+			<h2>Personalized Recommendations</h2>
+			<p>Take our quiz to get personalized recommendations based on your preferences and needs!</p>
+			<button type="button" id="quiz-button">Take the Quiz</butto
+			<div id="recommendations-list">
+				<!-- personalized recommendations will be displayed here -->
+			</div>
+		</section>
+		<section id="compare">
+			<h2>Compare Mobility Products</h2>
+			<p>Select up to three products to compare:</p>
+			<select id="product-select-1">
+				<option value="">Select a product</option>
+				<option value="product1">Product 1</option>
+				<option value="product2">Product 2</option>
+				<option value="product3">Product 3</option>
+			</select>
+			<select id="product-select-2">
+				<option value="">Select a product</option>
+				<option value="product1">Product 1</option>
+				<option value="product2">Product 2</option>
+				<option value="product3">Product 3</option>
+			</select>
+			<select id="product-select-3">
+				<option value="">Select a product</option>
+				<option value="product1">Product 1</option>
+				<option value="product2">Product 2</option>
+				<option value="product3">Product 3</option>
+			</select>
+			<button type="button" id="compare-button">Compare</button>
+			<table id="compare-table">
+				<!-- comparison table will be displayed here -->
+			</table>
+		</section>
+		<section id="reviews">
+			<h2>Read Reviews and Ratings</h2>
+			<p>See what other customers have to say about our mobility products!</p>
+			<div id="reviews-list">
+				<!-- reviews and ratings will be displayed here -->
+			</div>
+		</section>
+		<section id="buy-now">
+			<h2>Buy Now</h2>
+			<p>Ready to make a purchase? Click the button below to checkout!</p>
+			<button type="button" id="buy-now-button">Buy Now</button>
+			<!-- checkout form will be displayed here -->
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mobility Product Recommendations</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>

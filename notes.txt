@@ -1,0 +1,28 @@
+
+
+Day 2 & 3: 
+1. Node is single-threaded.
+2. So, use of callback functions are an integral part of node's working.
+3. But nesting of callback functions create unmaintainable code.
+4. Promise concept helps in dealing with server calls (async).
+5. Async-await syntax makes the code more readable.
+6. Node's callback functions follow a particular pattern: 
+     the signature of the callback is (error, result)
+
+7. Node-modules: local / global installation.
+                 core / non-core or third-party.
+
+8. Node-architecture: use  of event-loop (see diagram).
+9. Multi-threading is supported, but needs to be used with extreme caution.
+   Better to use the child process approach.
+
+Day 4: 
+1. Core modules: OS, FS, HTTP, NET, Events
+2. Use of npm: to install modules, run the scripts, publish custom modules, etc.
+
+Day 5:
+1. Use of streams  wrt File I/O: give more control to manage the packets / buffer.
+2. Backpressure: ensures that the client is not flooded with packets.
+3. HTTP server: provides the basic functionality. But routing is makes it clumsy code. 
+4. Use of middleware: additional functionality can plugged.
+     -- the next() needs to be called, to maintain the continuity of the data flow path.
